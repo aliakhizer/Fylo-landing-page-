@@ -1,0 +1,27 @@
+/* root */
+:root {
+  --neutral-light: hsl(240, 75%, 98%);
+  --neutral-soft: hsl(0, 0%, 75%);
+  --accent-dark: hsl(224, 93%, 58%);
+  --accent-light: hsl(170, 45%, 43%);
+  --primary-dark: hsl(243, 87%, 12%);
+  --primary-light: hsl(238, 22%, 44%);
+  --ff-heading:"Raleway", sans-serif;
+  --ff-body:"open sans" , sans-serif:
+  --fs-heading:2rem;
+  --fs-body:1rem;
+  --fw-400:400;
+  --fw--700:700;
+
+}
+/* RESET */
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+
