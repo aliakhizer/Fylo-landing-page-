@@ -1,7 +1,7 @@
 /* root */
 :root {
   --neutral-light: hsl(240, 75%, 98%);
-  --neutral-soft: hsl(0, 0%, 75%);
+  --neutral-soft: hsl(0deg 2.57% 30.36% / 94%);
   --accent-dark: hsl(224, 93%, 58%);
   --accent-light: hsl(170, 45%, 43%);
   --primary-dark: hsl(243, 87%, 12%);
@@ -32,6 +32,7 @@ a{
     font-family: var(--ff-heading);
     color:var(--neutral-soft);
 
+
 }
 a:hover{
     text-decoration: underline;
@@ -53,4 +54,36 @@ button{
 input{
     padding: .6rem;
     font-family: inherit;
+}
+
+
+body{
+  font-family: var(--ff-body);
+  font-size: var(--fs-body);
+  color:var(--primary-dark);
+  line-height: 1.5;
+
+}
+
+
+/* layout styles */
+header,section,footer{
+    padding: 2rem ;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width:6rem
+}
+.nav_list{
+ display: flex;
+ gap:1rem;
+}
+.hero{
+    display: flex;
+    flex-direction: column-reverse;
+    
+
 }
