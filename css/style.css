@@ -182,6 +182,7 @@ header{
     padding:1.5rem;
     text-align: left;
     margin-top: 2rem;
+    margin-bottom: 4rem;
 
 }
 .quotes{
@@ -217,4 +218,18 @@ gap: 9px;
 }
 .user-role{
     color:var(--neutral-soft)
+}
+.call-to-action{
+    background-color: var(--primary-light);
+    color:white;
+    text-align: center;
+}
+.cta-title{
+    color:white;
+
+    
+}
+.cta-des{
+    margin:1rem 0;
+
 }
