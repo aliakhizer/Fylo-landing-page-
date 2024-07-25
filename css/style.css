@@ -6,9 +6,9 @@
   --accent-light: hsl(170, 45%, 43%);
   --primary-dark: hsl(243, 87%, 12%);
   --primary-light: hsl(238, 22%, 44%);
-  --ff-heading:"Raleway", sans-serif;
-  --ff-body:"open sans" , sans-serif:
-  --fs-heading:2rem;
+  --ff-heading:"open sans" , sans-serif:
+  --ff-body:"Raleway", sans-serif;
+  --fs-heading:1.5rem;
   --fs-body:1rem;
   --fw-400:400;
   --fw--700:700;
@@ -19,6 +19,12 @@
     padding: 0;
     margin:0;
     box-sizing: border-box;
+}
+h1,h2,h3{
+    font-family: var(--ff-heading);
+    color:var(--primary-dark);
+
+
 }
 img{
     display: block;
@@ -45,17 +51,24 @@ ul,li{
 button{
     display: block;
     border:none;
-    padding: .6rem 2rem;
+    padding: .8rem 2rem;
     background-color: var(--accent-dark);
     color: var(--neutral-light);
+    text-transform: capitalize;
 
     
 }
 input{
     padding: .6rem;
     font-family: inherit;
+    color:var(--neutral-light);
+    border-radius: .1rem;
 }
+input,button{
+    width:100%;
 
+    
+}
 
 body{
   font-family: var(--ff-body);
@@ -75,7 +88,7 @@ header{
     justify-content: space-between;
 }
 .logo{
-    width:6rem
+    width:5rem
 }
 .nav_list{
  display: flex;
@@ -84,6 +97,37 @@ header{
 .hero{
     display: flex;
     flex-direction: column-reverse;
-    
+    text-align: center;
 
+
+}
+
+
+.hero-title{
+    max-width: 296px;
+    margin-top:1.5rem;
+    margin-bottom: 1.5rem;
+
+}
+.hero-content{
+    color: var(--neutral-soft);
+     margin-bottom: 1.5rem;
+
+}
+.hero-des{
+    margin-bottom: 1.5rem;
+}
+.hero-form input {
+    border:1px solid var(--neutral-soft);
+    text-transform: capitalize;
+    
+    margin-bottom: 1rem;
+    
+    
+}
+
+.feature{
+    display: flex;
+    flex-direction: column-reverse;
+    
 }
