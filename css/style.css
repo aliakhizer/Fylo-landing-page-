@@ -23,6 +23,7 @@
 h1,h2,h3{
     font-family: var(--ff-heading);
     color:var(--primary-dark);
+    font-size: var(--fs-heading);
 
 
 }
@@ -130,4 +131,90 @@ header{
     display: flex;
     flex-direction: column-reverse;
     
+}
+.feature-content{
+   text-align: center;
+}
+.feature-title{
+    margin-top:3rem;
+    margin-bottom: 1.5rem;
+
+}
+.feature-des{
+    text-align: left;
+}
+.feature-title{
+   
+    font-family: var(--ff-heading);
+    margin-bottom: 1.5rem;
+}
+.feature-des{
+    color:var(--neutral-soft);
+    margin-bottom: 1.5rem;
+
+    
+}
+.arrow-btn{
+    
+    color:var(--accent-light);
+    text-decoration: none;
+    display: flex;
+    gap: 9px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+.arrow-btn::after {
+  content: "";
+  display: block;
+  width: 45%;
+  height: 2px;
+  background-color:var(--accent-light);
+  position: absolute;
+  bottom:-5px;
+
+}
+
+.testinomial{
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    padding:1.5rem;
+    text-align: left;
+    margin-top: 2rem;
+
+}
+.quotes{
+    margin-bottom: 1rem;
+}
+.testinomial-des{
+    max-width: 329px;
+    margin-bottom: 1rem;
+  
+}
+.user-profile{
+background-color: white;
+display: flex;
+gap: 9px;
+}
+.user-img{
+
+  width: 50px;
+  height: 50px; 
+  border-radius: 50%;
+}
+.user-info {
+  display: flex;
+  flex-direction: column; 
+  
+
+}
+
+.username{
+    font-family: var(--ff-heading);
+
+    font-weight: bold;
+}
+.user-role{
+    color:var(--neutral-soft)
 }
