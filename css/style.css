@@ -25,3 +25,32 @@ img{
     max-width: 100%;
 }
 
+/* typgraphy */
+a{
+
+    text-decoration: none;
+    font-family: var(--ff-heading);
+    color:var(--neutral-soft);
+
+}
+a:hover{
+    text-decoration: underline;
+}
+ul,li{
+    list-style: none;
+}
+
+
+button{
+    display: block;
+    border:none;
+    padding: .6rem 2rem;
+    background-color: var(--accent-dark);
+    color: var(--neutral-light);
+
+    
+}
+input{
+    padding: .6rem;
+    font-family: inherit;
+}
